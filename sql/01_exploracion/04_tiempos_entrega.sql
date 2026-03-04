@@ -6,7 +6,6 @@
 -- =========================================
 
 
-
 -- ¿Cuál es el tiempo promedio de entrega en días?
 SELECT
   ROUND(AVG(DATE_DIFF(order_delivered_customer_date, 
